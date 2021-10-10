@@ -21,6 +21,10 @@ A container is simply another process on your machine that has been isolated fro
 **#What is a container image?**
 
 When running a container, it uses an isolated filesystem. This custom filesystem is provided by a container image. Since the image contains the container's filesystem, it must contain everything needed to run an application - all dependencies, configuration, scripts, binaries, etc. The image also contains other configuration for the container, such as environment variables, a default command to run, and other metadata.
+
+**Data Persistance:**
+
+Named Valume is a way to persists data using docker
  
  Tools:
  -docker desktop
@@ -33,6 +37,16 @@ When running a container, it uses an isolated filesystem. This custom filesystem
  --docker build
  --docker tag
  --docker push
+ docker ps
+ docker stop <container_id>
+ docker rm <container_id>
+ docker image ls -- to list all images
+ docker tag getting-started YOUR-USER-NAME/getting-started
+ docker push YOUR-USER-NAME/getting-started
+ docker volume create todo-db
+ docker run -dp 3000:3000 -v todo-db:/etc/todos getting-started
+ docker volume inspect todo-db
+ 
  
  --docker run -d -p 80:80 docker/getting-started
 
