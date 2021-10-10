@@ -20,7 +20,11 @@
  -windows terminal
  
  hub:
+ 
  #Commands:
+ --docker build
+ --docker tag
+ --docker push
  
  --docker run -d -p 80:80 docker/getting-started
 
