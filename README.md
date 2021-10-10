@@ -13,6 +13,10 @@
  - Fast, consistent delivery of your applications
  - Responsive deployment and scaling
  - Running more workloads on the same hardware
+
+#What is a container image?
+
+When running a container, it uses an isolated filesystem. This custom filesystem is provided by a container image. Since the image contains the container's filesystem, it must contain everything needed to run an application - all dependencies, configuration, scripts, binaries, etc. The image also contains other configuration for the container, such as environment variables, a default command to run, and other metadata.
  
  Tools:
  -docker desktop
@@ -40,4 +44,5 @@ docker/getting-started - the image to use
  
 References:
 https://docs.docker.com/get-started/overview/
+
 Deep dive on Container https://youtu.be/8fi7uSYlOdc
