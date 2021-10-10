@@ -22,7 +22,7 @@
  hub:
  Commands:
  docker pull <image
- docker run <>                   
+ docker run <localhostport:containerport>                   
                     
                     
  
