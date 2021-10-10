@@ -40,3 +40,4 @@ docker/getting-started - the image to use
  
 References:
 https://docs.docker.com/get-started/overview/
+Deep dive on Container https://youtu.be/8fi7uSYlOdc
