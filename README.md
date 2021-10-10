@@ -14,6 +14,17 @@
  - Responsive deployment and scaling
  - Running more workloads on the same hardware
  
+ Tools:
+ -docker desktop
+ -wsl2
+ -windows terminal
+ 
+ hub:
+ Commands:
+ docker pull <image
+ docker run <>                   
+                    
+                    
  
 References:
 https://docs.docker.com/get-started/overview/
